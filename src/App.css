@@ -32,7 +32,7 @@ a {
 
 .flex-space{
   display: flex;
-  justify-content: space-between ;
+  justify-content: space-between !important;
   align-items: center;
 }
 .flex-spacee{
@@ -42,9 +42,10 @@ a {
 }
 .flex-right{
   display: flex;
-  justify-content: end;
+  justify-content: end !important;
   align-items: center;
 }
+
 
 /* ============ Margins ============ */
 

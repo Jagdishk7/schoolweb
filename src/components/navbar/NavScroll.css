@@ -2,3 +2,44 @@
     width: 10rem;
 }
 
+.nav1{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.nav1-content{
+    width: 50vw;
+}
+
+.nav2{
+    display: flex;
+    justify-content: end !important;
+    align-items: center;
+}
+
+.search-bar{
+    margin-right: 5rem;
+}
+
+.social-icons{
+    width: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width : 600px){
+
+    .nav2{
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width : 500px){
+
+    .nav2{
+     font-size: .7rem;
+    }
+    
+}

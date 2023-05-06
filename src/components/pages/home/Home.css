@@ -1,11 +1,12 @@
+
 .main-container{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    border-top: 2rem solid #382626;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-top: 2rem solid #382626;
   
-  }
-  .main-content{
+}
+.main-content{
     display: flex;
     flex-direction: column;
     max-width: 76vw;
