@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -7,11 +8,20 @@ import './CardSlider.css'
 
 const CardSlider = ({heading}) => {
 
-    var settings = {
+  const [slides,setSlides] = useState(3);
+
+  // if(window.innerWidth<='1200' && window.innerWidth>='800'){
+  //   setSlides(2)
+  // }
+  // else if(window.innerWidth<='800'){
+  //   setSlides(1)
+  // }
+
+  var settings = {
         dots: true,
         infinite: true,
         speed: 400,
-        slidesToShow: 3,
+        slidesToShow: slides,
         slidesToScroll: 1
       };
 

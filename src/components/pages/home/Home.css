@@ -3,7 +3,6 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  border-top: 2rem solid #382626;
   
 }
 .main-content{
@@ -14,5 +13,9 @@
 
   .ad-section{
     width: 12vw;
-    background-color: #382626;
+    background-color: #e3a5ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
   }
