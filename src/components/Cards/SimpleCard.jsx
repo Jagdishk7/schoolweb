@@ -8,7 +8,7 @@ const SimpleCard = ({head}) => {
         <Card
           bg={'secondary'}
           key={'Secondary'}
-          style={{ width: '15rem' }}
+          style={{ width: '16rem' }}
           className="mb-2 simpleCard"
         >
           <Card.Header>{head}</Card.Header>

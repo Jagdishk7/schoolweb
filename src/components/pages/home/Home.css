@@ -3,6 +3,8 @@
   width: 100%;
   display: flex;
   flex-direction: row;
+  border-top: 2rem solid #e3a5ff;
+  border-bottom: 2rem solid #e3a5ff;
   
 }
 .main-content{
