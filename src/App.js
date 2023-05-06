@@ -22,8 +22,6 @@ function App() {
       </Routes>
     </BrowserRouter>
       <Footer />
-      <Footer />
-      <Footer />
     </>
   );
 }
