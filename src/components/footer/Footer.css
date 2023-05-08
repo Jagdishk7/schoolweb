@@ -1,0 +1,75 @@
+/* Footer section */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #252525;
+    padding: 5rem;
+  }
+  
+  .footer-logo>img{
+    width: 8rem;
+  }
+  
+  .footer-product-list>a:first-child,
+  .footer-support-list>a:first-child{
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+  
+  .footer-product-list,
+  .footer-support-list{
+    color: #a1a1a1 !;
+    line-height: 22px;
+  }
+  
+  .footer-product-list,
+  .footer-support-list{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .footer-email{
+    background-color: var(--bg-black-700);
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  
+  .footer-email >input{
+    background-color: var(--bg-black-700);
+    border: none;
+    outline: none;
+  }
+  
+  .footer-subscribe-btn{
+    width: 150px;
+    background-color: #080808;
+    padding: 10px 30px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footer-subscribe-btn > img{
+    height: 70%;
+  }
+  
+  .footer-subscribe-btn > p{
+    font-size: 12px;
+  }
+  .footer-socials{
+    color: white;
+  }
+
+
+  @media screen and (max-width : 320px){
+    
+  }
