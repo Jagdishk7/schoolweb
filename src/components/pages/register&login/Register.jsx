@@ -37,9 +37,9 @@ function Register(props) {
 
   return (
     <>
-        <div class="login-page">
+        <div className="login-page">
 
-            <div class="form">
+            <div className="form">
               <input
                 aria-label="Email"
                 type="email"

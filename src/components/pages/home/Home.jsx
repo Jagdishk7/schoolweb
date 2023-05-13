@@ -4,6 +4,9 @@ import Carouselcomp from "../../carousel/Carouselcomp";
 import Category from "../../category/Category";
 import "./Home.css";
 import AdCard from "../../Cards/AdCard";
+import SchoolTabs from "../../tabs/SchoolTabs";
+import Statistics from "../../tabs/Statistics";
+import CallbackForm from "../../tabs/CallbackForm";
 
 const Home = () => {
   return (
@@ -27,6 +30,15 @@ const Home = () => {
             </div>
             <div className=" sub-section">
             <CardSlider heading={"Boarding Schools"} />
+            </div>
+            <div className=" sub-section">
+            <SchoolTabs/>
+            </div>
+            <div className=" sub-section">
+            <Statistics/>
+            </div>
+            <div className=" sub-section">
+            <CallbackForm/>
             </div>
           </div>
           <div className="ad-section-right ad-section">

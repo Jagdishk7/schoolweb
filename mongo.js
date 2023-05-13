@@ -1,10 +1,11 @@
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost:27017/schoolweb")
+mongoose.connect("mongodb://0.0.0.0:27017/schoolDB")
 .then(() => {
     console.log('mongodb connected')
 })
-.catch(()=>{
+.catch((e)=>{
     console.log('connection failed')
+    console.log(e)
 })
 
 

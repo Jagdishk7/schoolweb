@@ -11,9 +11,18 @@ function Login() {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:3000/", { email, password })
-      .then(res=>{
-        
+      await axios.post("/login", { email, password })
+      .then(resp=>{
+        if(resp.data==='exist'){
+            alert('You Already have account')
+        }
+        else if(resp.data==='notexist'){
+            alert('Please make an account')
+        }
+      })
+      .catch((e)=>{
+        alert('Axios error')
+        console.log(e)
       })
     } 
     catch (e) {
@@ -23,8 +32,8 @@ function Login() {
 
   return (
     <>
-      <div class="login-page">
-        <form action="POST" class="form">
+      <div className="login-page">
+        <form action="POST" className="form">
           <input
             aria-label="Email"
             type="email"
