@@ -26,21 +26,37 @@ const CardSlider = ({heading}) => {
         centerPadding:'100px',
         responsive:[
           {
-            breakpoint:660,
+            breakpoint:425,
             settings:{
               slidesToShow:1,
-              centerMode:false
+              centerMode:true,
+              centerPadding:'20px'
             }
           },
           {
-            breakpoint:768,
+            breakpoint:592,
+            settings:{
+              slidesToShow:1,
+              centerMode:true,
+              centerPadding:'40px'
+            }
+          },
+          {
+            breakpoint:660,
+            settings:{
+              slidesToShow:1,
+              centerMode:true
+            }
+          },
+          {
+            breakpoint:963,
             settings:{
               slidesToShow:2,
               centerMode:false
             }
           },
           {
-            breakpoint:1024,
+            breakpoint:1200,
             settings:{
               slidesToShow:3,
               centerMode:false
