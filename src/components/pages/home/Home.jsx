@@ -19,14 +19,13 @@ const Home = () => {
               <AdCard/>
           </div>
           <div className="main-content">
-            <div className="mtb-53">
+            <div className=" sub-section">
             <Category/>
             </div>
-            <hr />
-            <div className="mtb-4">
+            <div className=" sub-section">
             <CardSlider heading={"Play Schools"} />
             </div>
-            <div className="mtb-4">
+            <div className=" sub-section">
             <CardSlider heading={"Boarding Schools"} />
             </div>
           </div>

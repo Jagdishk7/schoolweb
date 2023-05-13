@@ -8,7 +8,6 @@ import './CardSlider.css'
 
 const CardSlider = ({heading}) => {
 
-  const [slides,setSlides] = useState(3);
 
   // if(window.innerWidth<='1200' && window.innerWidth>='800'){
   //   setSlides(2)
@@ -21,8 +20,49 @@ const CardSlider = ({heading}) => {
         dots: true,
         infinite: true,
         speed: 400,
-        slidesToShow: slides,
-        slidesToScroll: 1
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        centerMode:true,
+        centerPadding:'100px',
+        responsive:[
+          {
+            breakpoint:425,
+            settings:{
+              slidesToShow:1,
+              centerMode:false,
+              centerPadding:'20px'
+            }
+          },
+          {
+            breakpoint:592,
+            settings:{
+              slidesToShow:1,
+              centerMode:true,
+              centerPadding:'40px'
+            }
+          },
+          {
+            breakpoint:660,
+            settings:{
+              slidesToShow:1,
+              centerMode:true
+            }
+          },
+          {
+            breakpoint:963,
+            settings:{
+              slidesToShow:2,
+              centerMode:false
+            }
+          },
+          {
+            breakpoint:1200,
+            settings:{
+              slidesToShow:3,
+              centerMode:false
+            }
+          }
+        ]
       };
 
   return (

@@ -8,6 +8,7 @@ import NavScroll from "./components/navbar/NavScroll";
 import Footer from "./components/footer/Footer";
 import Home from "./components/pages/home/Home";
 import About from "./components/pages/About/About";
+import Registration from "./components/pages/registration/Registration";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+          <Route path="/registration" element={<Registration/>} />
           <Route path="/about" element={<About/>} />
           {/* <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} /> */}
