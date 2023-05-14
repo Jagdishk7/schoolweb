@@ -10,6 +10,7 @@ import About from "./components/pages/About/About";
 // import Registration from "./components/pages/register&login/Registration";
 import Register from "./components/pages/register&login/Register";
 import Login from "./components/pages/register&login/Login";
+import AllSchools from "./components/pages/allSchools/AllSchools";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
           <Route path="/register" element={<Register/>} />
+          <Route path="/allschools" element={<AllSchools/>} />
           <Route path="/login" element={<Login/>} />
           <Route path="/about" element={<About/>} />
           {/* <Route path="contact" element={<Contact />} />

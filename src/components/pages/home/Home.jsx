@@ -27,9 +27,9 @@ const Home = () => {
               <AdCard/>
           </div>
           <div className="main-content">
-            <div className=" sub-section">
-            {/* Hello {location.state.id} welcome to the home */}
-            </div>
+            {/* <div className=" sub-section">
+            Hello {location.state.id} welcome to the home
+            </div> */}
             <div className=" sub-section">
             <Category/>
             </div>
@@ -45,9 +45,9 @@ const Home = () => {
             <div className=" sub-section">
             <Statistics/>
             </div>
-            <div className=" sub-section">
+            {/* <div className=" sub-section">
             <CallbackForm/>
-            </div>
+            </div> */}
           </div>
           <div className="ad-section-right ad-section">
               <AdCard/>

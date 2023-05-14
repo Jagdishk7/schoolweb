@@ -1,5 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
 
 function ImageCard({src,name}) {
   return (
@@ -10,7 +11,7 @@ function ImageCard({src,name}) {
         <Card.Text>
           School Description
         </Card.Text>
-        <Button variant="primary">Details</Button>
+        <Link to={'/allschools'}><Button variant="primary">Details</Button></Link>
       </Card.Body>
     </Card>
   );

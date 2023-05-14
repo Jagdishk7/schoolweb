@@ -16,6 +16,10 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
+body{
+  background-color: #eff2f7;
+}
 a {
   text-decoration: none;
 }
@@ -94,4 +98,10 @@ a {
 
 .p-3{
   padding: 3rem;
+}
+
+/* ============ Widths ============ */
+
+.w-90{
+  width: 90% !important;
 }

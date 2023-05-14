@@ -1,3 +1,10 @@
+a{
+    text-decoration: none;
+}
+.simpleCard{
+    text-decoration: none;
+    color: #252525;
+}
 .image-card{
     box-shadow: none !important;
 }
