@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavScroll from "./components/navbar/NavScroll";

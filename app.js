@@ -18,13 +18,20 @@ app.post('/login',async(req,resp)=>{
     const{email,password} = req.body
 
     try {
-        const check = await collection.findOne({email:email})
+        // console.log(email + ' and ' + password)
+        const checkEmail = await collection.findOne({email:email})
+        const checkPassword = await collection.findOne({password:password})
 
-        if(check){
-            resp.json('exist')
+        if(checkEmail){
+            if(checkPassword){
+                resp.json('accountExist')
+            }
+            else{
+                resp.json('passNotMatch')
+            }
         }
         else{
-            resp.json('notexist')
+            resp.json('emailNotExist')
         }
     }
     catch (e) {
@@ -35,18 +42,19 @@ app.post('/login',async(req,resp)=>{
 
 
 app.post('/register',async(req,resp)=>{
-    const{email,password} = req.body
+    const{name,email,password} = req.body
 
     const data = {
+        name:name,
         email:email,
         password:password
     }
 
     try {
-        const check = await collection.findOne({email:email})
+        const checkEmail = await collection.findOne({email:email})
 
-        if(check){
-            resp.json('exist')
+        if(checkEmail){
+            resp.json('userExist')
         }
         else{
             resp.json('notexist')

@@ -8,7 +8,12 @@ import SchoolTabs from "../../tabs/SchoolTabs";
 import Statistics from "../../tabs/Statistics";
 import CallbackForm from "../../tabs/CallbackForm";
 
+import { useLocation } from "react-router-dom";
+
 const Home = () => {
+
+  const location = useLocation();
+
   return (
     <>
       <div className="home-section">
@@ -22,6 +27,9 @@ const Home = () => {
               <AdCard/>
           </div>
           <div className="main-content">
+            <div className=" sub-section">
+            {/* Hello {location.state.id} welcome to the home */}
+            </div>
             <div className=" sub-section">
             <Category/>
             </div>

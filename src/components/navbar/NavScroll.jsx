@@ -8,7 +8,7 @@ import "./NavScroll.css";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import { Link } from "react-router-dom";
+
 
 function NavScroll() {
   return (
@@ -52,8 +52,8 @@ function NavScroll() {
         >
             <Nav>
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/register">Register</Nav.Link>
-              <Nav.Link href="/login">Login</Nav.Link>
+              {/* <Nav.Link href="/register">Register</Nav.Link> */}
+              <Nav.Link href="/login">Login & Register</Nav.Link>
               <Nav.Link href="/about">About</Nav.Link>
               <Nav.Link href="#blog">Blog</Nav.Link>
               <Nav.Link href="#faqs">FAQs</Nav.Link>
