@@ -7,10 +7,10 @@ import NavScroll from "./components/navbar/NavScroll";
 import Footer from "./components/footer/Footer";
 import Home from "./components/pages/home/Home";
 import About from "./components/pages/About/About";
-// import Registration from "./components/pages/register&login/Registration";
 import Register from "./components/pages/register&login/Register";
 import Login from "./components/pages/register&login/Login";
 import AllSchools from "./components/pages/allSchools/AllSchools";
+import Contact from "./components/pages/contact/Contact";
 
 function App() {
   return (
@@ -23,8 +23,7 @@ function App() {
           <Route path="/allschools" element={<AllSchools/>} />
           <Route path="/login" element={<Login/>} />
           <Route path="/about" element={<About/>} />
-          {/* <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<NoPage />} /> */}
+          <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
       <Footer />
