@@ -17,6 +17,7 @@ import Coachings from "./components/pages/allSchools/Coachings";
 import TechnicalInstitutes from "./components/pages/allSchools/TechnicalInstitutes";
 import SoftwareInstitutes from "./components/pages/allSchools/SoftwareInstitutes";
 import FAQs from "./components/pages/faqs/FAQs";
+import Blogs from "./components/pages/blogs/Blogs";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/register" element={<Register/>} />
           <Route path="/login" element={<Login/>} />
           <Route path="/about" element={<About/>} />
+          <Route path="/blogs" element={<Blogs/>} />
           <Route path="/faqs" element={<FAQs/>} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/playschool" element={<PlaySchool/>} />
