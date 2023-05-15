@@ -81,9 +81,6 @@ const CardSlider = ({heading}) => {
       <div>
         <ImageCard src={'assets/schoolimg/mariamata.jpg'} name={'Maria Mata School'}/>
       </div>
-      <div>
-        <ImageCard src={'assets/schoolimg/mansarovarplay.jpg'} name={'Mansarovar Play School'}/>
-      </div>
     </Slider>
     </div>
   )
