@@ -42,6 +42,7 @@ function Login() {
   return (
     <>
       <div className="login-page">
+      <h1 className='page-heading'>Login</h1>
         <form action="POST" className="form">
           <input
             aria-label="Email"

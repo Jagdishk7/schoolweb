@@ -21,7 +21,7 @@ function SchoolTabs() {
       <TabCard src={'assets/schoolImg/mindseyeplay.jpg'}/>
       </Tab>
       <Tab eventKey="university" title="Universiry" >
-      <TabCard src={'assets/schoolImg/mariamata.jpg'}/>
+      <TabCard src={'assets/CollegeUniversities/mcbu.jpg'}/>
       </Tab>
     </Tabs>
   );
