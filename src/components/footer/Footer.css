@@ -12,8 +12,8 @@
     position: relative;
     top: 0;
   }
-  .footer-logo>img{
-    width: 8rem;
+  .footer-logo img{
+    width: 10rem;
   }
 
   .footer-logo>p{
@@ -29,14 +29,17 @@
   }
 
 .footer-links > a{
-    color: rgb(179, 179, 179) !important;
+    color: #bbbbbb !important;
 }
 .footer-links > a:hover{
     color: aliceblue !important;
 }
-  .footer-socials{
-    color: white;
+  .footer-socials>a{
+    color: #bbbbbb !important;
   }
+  .footer-socials > a:hover{
+    color: aliceblue !important;
+}
 
 
   @media screen and (max-width : 500px){

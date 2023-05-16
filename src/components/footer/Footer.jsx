@@ -13,7 +13,8 @@ const Footer = () => {
     <>
         <footer bg="dark" variant="dark" className="footer-section">
           <div className="footer-logo">
-            <img src="assets/logo.png" alt="logo" />
+          <Link to={'/'}><img src="assets/logo.png" alt="logo" /></Link>
+            
             <p>
               ICOESS is commited to provide adative services & solutions to our
               cusomers. ICOESS helps businesses thrive in a world defined by

@@ -43,7 +43,7 @@ function NavScroll() {
         </Container>
       </Navbar>
 
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="dark" variant="dark" className="nav2-container">
         <Container
           
           className="nav2"
