@@ -4,6 +4,7 @@ import './SchoolCard.css'
 const CollegesUniversities = () => {
   return (
     <>
+    <h1 className='page-heading'>Colleges & Universities</h1>
       <main id="page-content" class="main section-wrap">
         <article class="article">
           <div class="content">
@@ -11,8 +12,7 @@ const CollegesUniversities = () => {
             Maharaja Chhatrasal Bundelkhand University
             </h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore repudiandae iusto, harum soluta alias consectetur placeat, unde non suscipit ex nam sequi nemo accusamus distinctio sapiente, debitis dicta doloremque illo esse possimus cupiditate.
-            </p>
+            Maharaja Chhatrasal Bundelkhand University is a state university in Chhatarpur, India. It serves as an affiliating university for colleges of five districts.            </p>
           </div>
 
           <figure class="image-wrap">
@@ -29,14 +29,47 @@ const CollegesUniversities = () => {
             Shri Krishna University
             </h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore repudiandae iusto, harum soluta alias consectetur placeat, unde non suscipit ex nam sequi nemo accusamus distinctio sapiente, debitis dicta doloremque illo esse possimus cupiditate.
-            </p>
+            Shri Krishna University Chhatarpur MP is a state private university duly recognized by UGC, Government of MP, MP Private University Regulatory Commission and other regulatory bodies such as NCTE, PCI, INC, BCI etc. Shri Krishna University is situated in a lush green environment far away from crowdy, pollution filled city at NH 86 Sagar road Chhatarpur MP. It is just 8 KM away from centre of Chhatarpur MP with well transport connectivity from all over India.            </p>
           </div>
 
           <figure class="image-wrap">
             <img
               src="assets/CollegeUniversities/sku.jpg"
               alt="Shri Krishna University"
+            />
+          </figure>
+        </article>
+
+        <article class="article">
+          <div class="content">
+            <h1 class="headline">
+            Pandit Dev Prabhakar Shastri College of Technology
+            </h1>
+            <p>
+            Pandit Dev Prabhakar Shastri College of Technology is founded by S.C.Jain Shiksha Prasar Samiti and it’s an institute which is going to build everything from scratch. Hence it has no history behind which will enable it to build it through every step it takes with each passing day.            </p>
+          </div>
+
+          <figure class="image-wrap">
+            <img
+              src="assets/CollegeUniversities/pdps.jpg"
+              alt="Pandit Dev Prabhakar Shastri College of Technology"
+            />
+          </figure>
+        </article>
+
+        <article class="article">
+          <div class="content">
+            <h1 class="headline">
+            Digital Institute of Science and Technology
+            </h1>
+            <p>
+            Digital Institute of Science and Technology (DIST) was established in 2008 under the aegis of Digital Educational and Social Welfare society. The Institute is approved by the higher education department, govt. of Madhya Pradesh and is affiliated to Maharaja Chhatrasal Bundelkhand University, Chhatarpur (M.P.)            </p>
+          </div>
+
+          <figure class="image-wrap">
+            <img
+              src="assets/CollegeUniversities/dcm.jpg"
+              alt="Digital Institute of Science and Technology"
             />
           </figure>
         </article>

@@ -1,14 +1,14 @@
 import React from "react";
-import CardSlider from "../../cardslider/CardSlider";
 import Carouselcomp from "../../carousel/Carouselcomp";
 import Category from "../../category/Category";
 import "./Home.css";
 import AdCard from "../../Cards/AdCard";
 import SchoolTabs from "../../tabs/SchoolTabs";
 import Statistics from "../../tabs/Statistics";
-import CallbackForm from "../../tabs/CallbackForm";
 
 import { useLocation } from "react-router-dom";
+import CardSliderPlay from "../../cardslider/CardSliderPlay";
+import CardSliderBoarding from "../../cardslider/CardSliderBoarding";
 
 const Home = () => {
 
@@ -34,10 +34,10 @@ const Home = () => {
             <Category/>
             </div>
             <div className=" sub-section">
-            <CardSlider heading={"Play Schools"} />
+            <CardSliderPlay heading={"Play Schools"} />
             </div>
             <div className=" sub-section">
-            <CardSlider heading={"Boarding Schools"} />
+            <CardSliderBoarding heading={"Boarding Schools"} />
             </div>
             <div className=" sub-section">
             <SchoolTabs/>

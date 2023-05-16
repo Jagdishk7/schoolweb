@@ -7,6 +7,7 @@ const SimpleCard = ({head}) => {
     <div>
         <Card
           bg={'secondary'}
+          // text='light'
           key={'Secondary'}
           style={{ width: '16rem' }}
           className="mb-2 simpleCard"

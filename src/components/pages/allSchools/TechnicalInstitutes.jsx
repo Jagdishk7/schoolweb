@@ -4,21 +4,23 @@ import './SchoolCard.css'
 const TechnicalInstitutes = () => {
   return (
     <>
+    <h1 className='page-heading'>Technical Institutes</h1>
       <main id="page-content" class="main section-wrap">
+      
+
         <article class="article">
           <div class="content">
             <h1 class="headline">
-              Minds eye play school
+            Pandit Dev Prabhakar Shastri College of Technology
             </h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore repudiandae iusto, harum soluta alias consectetur placeat, unde non suscipit ex nam sequi nemo accusamus distinctio sapiente, debitis dicta doloremque illo esse possimus cupiditate.
-            </p>
+            Pandit Dev Prabhakar Shastri College of Technology is founded by S.C.Jain Shiksha Prasar Samiti and it’s an institute which is going to build everything from scratch. Hence it has no history behind which will enable it to build it through every step it takes with each passing day.            </p>
           </div>
 
           <figure class="image-wrap">
             <img
-              src="assets/schoolImg/mindseyeplay.jpg"
-              alt="It's a cupcake and it looks delicious"
+              src="assets/CollegeUniversities/pdps.jpg"
+              alt="Shri Krishna University"
             />
           </figure>
         </article>
@@ -26,17 +28,16 @@ const TechnicalInstitutes = () => {
         <article class="article">
           <div class="content">
             <h1 class="headline">
-              Mansarovar Play School
+            Shri Krishna University
             </h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore repudiandae iusto, harum soluta alias consectetur placeat, unde non suscipit ex nam sequi nemo accusamus distinctio sapiente, debitis dicta doloremque illo esse possimus cupiditate.
-            </p>
+            Shri Krishna University Chhatarpur MP is a state private university duly recognized by UGC, Government of MP, MP Private University Regulatory Commission and other regulatory bodies such as NCTE, PCI, INC, BCI etc. Shri Krishna University is situated in a lush green environment far away from crowdy, pollution filled city at NH 86 Sagar road Chhatarpur MP. It is just 8 KM away from centre of Chhatarpur MP with well transport connectivity from all over India.            </p>
           </div>
 
           <figure class="image-wrap">
             <img
-              src="assets/schoolImg/mansarovarplay.jpg"
-              alt="It's a cupcake and it looks delicious"
+              src="assets/CollegeUniversities/sku.jpg"
+              alt="Shri Krishna University"
             />
           </figure>
         </article>
@@ -44,36 +45,16 @@ const TechnicalInstitutes = () => {
         <article class="article">
           <div class="content">
             <h1 class="headline">
-              Sumati Academy
+            Digital Institute of Science and Technology
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab eaque itaque assumenda iure exercitationem, ad aliquam ipsam dicta voluptatem enim natus libero qui, ea suscipit! Aspernatur cumque reiciendis porro dolore explicabo dolorum tenetur?
-            </p>
+            Digital Institute of Science and Technology (DIST) was established in 2008 under the aegis of Digital Educational and Social Welfare society. The Institute is approved by the higher education department, govt. of Madhya Pradesh and is affiliated to Maharaja Chhatrasal Bundelkhand University, Chhatarpur (M.P.)            </p>
           </div>
 
           <figure class="image-wrap">
             <img
-              src="assets/schoolImg/sumati.jpg"
-              alt="Sleeping cat on a comfy looking blanket"
-            />
-          </figure>
-        </article>
-
-        <article class="article flow">
-          <div class="content">
-            <h1 class="headline">Delhi Public School</h1>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero provident earum natus consequatur. Optio harum dolorem at delectus reprehenderit magni quas, soluta pariatur, quibusdam ab impedit corrupti, eius sint quos temporibus. Rem, cum!
-            </p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero provident earum natus consequatur. Optio harum dolorem at delectus reprehenderit magni quas, soluta pariatur, quibusdam ab impedit corrupti, eius sint quos temporibus. Rem, cum!
-            </p>
-          </div>
-
-          <figure class="image-wrap">
-            <img
-              src="assets/schoolImg/dps2.jpg"
-              alt="A dog sitting behind a banana wearing banana pajamas"
+              src="assets/CollegeUniversities/dcm.jpg"
+              alt="Shri Krishna University"
             />
           </figure>
         </article>

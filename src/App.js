@@ -22,25 +22,31 @@ import Blogs from "./components/pages/blogs/Blogs";
 function App() {
   return (
     <>
-    <NavScroll />
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-          <Route path="/register" element={<Register/>} />
-          <Route path="/login" element={<Login/>} />
-          <Route path="/about" element={<About/>} />
-          <Route path="/blogs" element={<Blogs/>} />
-          <Route path="/faqs" element={<FAQs/>} />
+      <BrowserRouter>
+          <NavScroll />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/faqs" element={<FAQs />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/playschool" element={<PlaySchool/>} />
-          <Route path="/BoardingSchools" element={<BoardingSchools/>} />
-          <Route path="/CollegesUniversities" element={<CollegesUniversities/>} />
-          <Route path="/coachings" element={<Coachings/>} />
-          <Route path="/TechnicalInstitutes" element={<TechnicalInstitutes/>} />
-          <Route path="/SoftwareInstitutes" element={<SoftwareInstitutes/>} />
-      </Routes>
-    </BrowserRouter>
-      <Footer />
+          <Route path="/playschool" element={<PlaySchool />} />
+          <Route path="/BoardingSchools" element={<BoardingSchools />} />
+          <Route
+            path="/CollegesUniversities"
+            element={<CollegesUniversities />}
+          />
+          <Route path="/coachings" element={<Coachings />} />
+          <Route
+            path="/TechnicalInstitutes"
+            element={<TechnicalInstitutes />}
+          />
+          <Route path="/SoftwareInstitutes" element={<SoftwareInstitutes />} />
+        </Routes>
+          <Footer />
+      </BrowserRouter>
     </>
   );
 }

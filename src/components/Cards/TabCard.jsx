@@ -1,15 +1,13 @@
 import Card from "react-bootstrap/Card";
 
-function TabCard({ src }) {
+function TabCard({ src , desc}) {
   return (
     <>
       <Card>
         <Card.Img variant="top" src={src} />
         <Card.Body>
           <Card.Text>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, a
-            amet magnam illo totam fugiat excepturi omnis distinctio labore
-            consequatur ullam nostrum ipsam. Velit, dicta.
+            {desc}
           </Card.Text>
         </Card.Body>
       </Card>

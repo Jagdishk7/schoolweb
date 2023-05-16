@@ -19,6 +19,19 @@
     display: flex;
     justify-content: end !important;
     align-items: center;
+    padding: 1rem 2rem;
+}
+
+.nav2-links{
+    display: flex;
+    gap: 1rem;
+}
+
+.nav2-links > a{
+    color: rgb(179, 179, 179) !important;
+}
+.nav2-links > a:hover{
+    color: aliceblue !important;
 }
 
 .search-bar{
@@ -44,6 +57,11 @@
 
     .nav2{
      font-size: .7rem;
+     padding: 0;
+    }
+
+    .nav2-links{
+        gap: .7rem;
     }
     
 }

@@ -4,6 +4,7 @@ import './SchoolCard.css'
 const PlaySchool = () => {
   return (
     <>
+    <h1 className='page-heading'>Play Schools</h1>
       <main id="page-content" class="main section-wrap">
         <article class="article">
           <div class="content">
@@ -11,14 +12,14 @@ const PlaySchool = () => {
               Minds eye play school
             </h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore repudiandae iusto, harum soluta alias consectetur placeat, unde non suscipit ex nam sequi nemo accusamus distinctio sapiente, debitis dicta doloremque illo esse possimus cupiditate.
-            </p>
+            Minds Eye International School Behind Addinath Moters. We are an Education Institute Providing High Tech Education
+          </p>
           </div>
 
           <figure class="image-wrap">
             <img
               src="assets/schoolImg/mindseyeplay.jpg"
-              alt="It's a cupcake and it looks delicious"
+              alt=" Minds eye play school"
             />
           </figure>
         </article>
@@ -29,14 +30,13 @@ const PlaySchool = () => {
               Mansarovar Play School
             </h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore repudiandae iusto, harum soluta alias consectetur placeat, unde non suscipit ex nam sequi nemo accusamus distinctio sapiente, debitis dicta doloremque illo esse possimus cupiditate.
-            </p>
+            This School is counted among the top-rated Schools in Madhya Pradesh with an excellent academic track record. If you’re looking for more details regarding admission/application forms, syllabus, results or examinations schedule, kindly get in touch with the relevant department of the school. If you’re an official or owner of this School and would like to add or update data on this listing, contact us.            </p>
           </div>
 
           <figure class="image-wrap">
             <img
               src="assets/schoolImg/mansarovarplay.jpg"
-              alt="It's a cupcake and it looks delicious"
+              alt="Mansarovar Play School"
             />
           </figure>
         </article>
@@ -47,14 +47,14 @@ const PlaySchool = () => {
               Sumati Academy
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab eaque itaque assumenda iure exercitationem, ad aliquam ipsam dicta voluptatem enim natus libero qui, ea suscipit! Aspernatur cumque reiciendis porro dolore explicabo dolorum tenetur?
-            </p>
+            The school comes with an uncompromising commitment. It aims to achieve specific, measurable, observable and quantifiable results among all aspirants/students. Because the School has a vision to provide value based education to young minds and provide a dynamic learning environment.
+However, the School aegis for every student which strives for excellence through active learning and education. Moreover, the School has the core committed faculty which has come from accomplished backgrounds with vast experience.            </p>
           </div>
 
           <figure class="image-wrap">
             <img
               src="assets/schoolImg/sumati.jpg"
-              alt="Sleeping cat on a comfy looking blanket"
+              alt="Sumati Academy"
             />
           </figure>
         </article>
@@ -63,17 +63,14 @@ const PlaySchool = () => {
           <div class="content">
             <h1 class="headline">Delhi Public School</h1>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero provident earum natus consequatur. Optio harum dolorem at delectus reprehenderit magni quas, soluta pariatur, quibusdam ab impedit corrupti, eius sint quos temporibus. Rem, cum!
-            </p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero provident earum natus consequatur. Optio harum dolorem at delectus reprehenderit magni quas, soluta pariatur, quibusdam ab impedit corrupti, eius sint quos temporibus. Rem, cum!
+            Delhi Public School, Chhatarpur (Madhya Pradesh) aims to deliver balanced educational and personality skills within a safe, stimulating environment for each child to grow to the greatest potential.        
             </p>
           </div>
 
           <figure class="image-wrap">
             <img
               src="assets/schoolImg/dps2.jpg"
-              alt="A dog sitting behind a banana wearing banana pajamas"
+              alt="Delhi Public School"
             />
           </figure>
         </article>

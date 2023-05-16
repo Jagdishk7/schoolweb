@@ -3,10 +3,14 @@ a{
 }
 .simpleCard{
     text-decoration: none;
-    color: #252525;
+    color: #000000;
 }
 .image-card{
     box-shadow: none !important;
+}
+.imageCardBody{
+    position: absolute ;
+    bottom: 0;
 }
 
 .image-card:hover{

@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import ImageCard from '../Cards/ImageCard';
 import './CardSlider.css'
 
-const CardSlider = ({heading}) => {
+const CardSliderPlay = ({heading}) => {
 
 
   // if(window.innerWidth<='1200' && window.innerWidth>='800'){
@@ -68,22 +68,26 @@ const CardSlider = ({heading}) => {
   return (
     <div className='mb-5 mt-5 card-slider'>
       <h1>{heading}</h1>
+      <hr />
       <Slider {...settings}>
       <div>
-        <ImageCard src={'assets/schoolimg/mindseyeplay.jpg'} name={'Minds Eye Play School'}/>
+        <ImageCard src={'assets/schoolimg/mindseyeplay.jpg'} pagelink={"/playschool"} name={'Minds Eye Play School'}/>
       </div>
       <div>
-        <ImageCard src={'assets/schoolimg/mansarovarplay.jpg'} name={'Mansarovar Play School'}/>
+        <ImageCard src={'assets/schoolimg/mansarovarplay.jpg'} pagelink={"/playschool"} name={'Mansarovar Play School'}/>
       </div>
       <div>
-        <ImageCard src={'assets/schoolimg/dps2.jpg'} name={'Delhi Public School'}/>
+        <ImageCard src={'assets/schoolimg/dps2.jpg'}  pagelink={"/playschool"} name={'Delhi Public School'}/>
       </div>
       <div>
-        <ImageCard src={'assets/schoolimg/mariamata.jpg'} name={'Maria Mata School'}/>
+        <ImageCard src={'assets/schoolimg/mariamata.jpg'} pagelink={"/playschool"} name={'Maria Mata School'}/>
+      </div>
+      <div>
+        <ImageCard src={'assets/schoolimg/sumati.jpg'} pagelink={"/playschool"} name={'Sumati Academy'}/>
       </div>
     </Slider>
     </div>
   )
 }
 
-export default CardSlider
+export default CardSliderPlay

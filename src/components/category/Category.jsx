@@ -11,7 +11,7 @@ const Category = () => {
       <Link to={'/CollegesUniversities'}><SimpleCard head={'Colleges & Universities'}/></Link>
       <Link to={'/coachings'}><SimpleCard head={'Coachings'}/></Link>
       <Link to={'/TechnicalInstitutes'}><SimpleCard head={'Technical Institutes'}/></Link>
-      <Link to={'/allschools'}><SimpleCard head={'Software / IT Certifications'}/></Link>
+      <Link to={'/SoftwareInstitutes'}><SimpleCard head={'Software / IT Certifications'}/></Link>
     </div>
   )
 }
