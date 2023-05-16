@@ -11,8 +11,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <footer>
-        <Navbar bg="dark" variant="dark" className="footer-section">
+        <footer bg="dark" variant="dark" className="footer-section">
           <div className="footer-logo">
             <img src="assets/logo.png" alt="logo" />
             <p>
@@ -55,8 +54,7 @@ const Footer = () => {
               <LinkedInIcon />
             </a>
           </div>
-        </Navbar>
-      </footer>
+        </footer>
     </>
   );
 };

@@ -10,19 +10,35 @@ const BoardingSchools = () => {
         <article class="article">
           <div class="content">
             <h1 class="headline">
-              Sumati Academy
+            Shiv Shakti Gurukulam
             </h1>
             <p>
-            The school comes with an uncompromising commitment. It aims to achieve specific, measurable, observable and quantifiable results among all aspirants/students. Because the School has a vision to provide value based education to young minds and provide a dynamic learning environment.
-However, the School aegis for every student which strives for excellence through active learning and education. Moreover, the School has the core committed faculty which has come from accomplished backgrounds with vast experience.
+            A boarding school is a school where students live and sleep. Some boarding schools have day students who go home at the end of the school day. If the school costs money, they don't have to pay as much money. A person who stays at a boarding school is called a "boarder".
 
             </p>
           </div>
 
           <figure class="image-wrap">
             <img
-              src="assets/schoolImg/sumati.jpg"
-              alt="Sumati Academy"
+              src="assets/boardingSchools/ssg.jpg"
+              alt="Shiv Shakti Gurukulam"
+            />
+          </figure>
+        </article>
+        <article class="article">
+          <div class="content">
+            <h1 class="headline">
+            Edify School
+            </h1>
+            <p>
+            A boarding school is a school where students live and sleep. Some boarding schools have day students who go home at the end of the school day. If the school costs money, they don't have to pay as much money. A person who stays at a boarding school is called a "boarder".
+            </p>
+          </div>
+
+          <figure class="image-wrap">
+            <img
+              src="assets/boardingSchools/edify.jpg"
+              alt="Edify School"
             />
           </figure>
         </article>
@@ -31,8 +47,8 @@ However, the School aegis for every student which strives for excellence through
           <div class="content">
             <h1 class="headline">Delhi Public School</h1>
             <p>
-            Delhi Public School, Chhatarpur (Madhya Pradesh) aims to deliver balanced educational and personality skills within a safe, stimulating environment for each child to grow to the greatest potential.            </p>
-
+            A boarding school is a school where students live and sleep. Some boarding schools have day students who go home at the end of the school day. If the school costs money, they don't have to pay as much money. A person who stays at a boarding school is called a "boarder".
+            </p>
           </div>
 
           <figure class="image-wrap">
@@ -45,15 +61,16 @@ However, the School aegis for every student which strives for excellence through
 
         <article class="article flow">
           <div class="content">
-            <h1 class="headline">Maria Mata Convent School</h1>
+            <h1 class="headline">Jugraj Academy</h1>
             <p>
-            Maria Mata Convent High School also known as Maria Mata Convent High School. The school was established in 1979. Maria Mata Convent High School is a Co-Ed school affiliated to Central Board of Secondary Education (CBSE) . It is managed by Satna Diocesan Society.            </p>
+            A boarding school is a school where students live and sleep. Some boarding schools have day students who go home at the end of the school day. If the school costs money, they don't have to pay as much money. A person who stays at a boarding school is called a "boarder".
+            </p>
           </div>
 
           <figure class="image-wrap">
             <img
-              src="assets/schoolImg/mariamata.jpg"
-              alt="Maria Mata Convent School"
+              src="assets/boardingSchools/jugraj.jpg"
+              alt="Jugraj Academy"
             />
           </figure>
         </article>
