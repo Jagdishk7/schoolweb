@@ -5,6 +5,10 @@ a{
     text-decoration: none;
     color: #000000;
 }
+
+.simplecard-desc{
+    background-color: #7e7e7e !important;
+}
 .image-card{
     box-shadow: none !important;
 }
@@ -26,4 +30,24 @@ a{
 .adCard img{
     width: 10vw;
 }
+
+.tabcard-desc{
+    text-align: justify;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .tab-card{
+        display: flex ;
+        flex-direction: column ;
+    }
+    .tabcard-image{
+        width: 100% !important;
+    }
+    .tabcard-desc-box{
+        width: 100% !important;
+    }
+}
+
 

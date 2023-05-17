@@ -4,6 +4,20 @@ import "./Carouselcomp.css"
 function Carouselcomp() {
   return (
     <Carousel className='carousel' >
+      
+      <Carousel.Item style={{maxHeight:'30rem',height:'auto'}}>
+        <img
+          className="d-block w-100 carouselImg"
+          src="assets/CollegeUniversities/sku.jpg"
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <div className="flex-column carouselText">
+            <h3>Shri Krishna University Chhatarpur</h3>
+          </div>
+        </Carousel.Caption>
+      </Carousel.Item>
       <Carousel.Item style={{maxHeight:'30rem',height:'auto'}}>
         <img
           className="d-block w-100 carouselImg"
@@ -19,26 +33,13 @@ function Carouselcomp() {
       <Carousel.Item style={{maxHeight:'30rem',height:'auto'}}>
         <img
           className="d-block w-100 carouselImg"
-          src="assets/schoolimg/mariamata.jpg"
-          alt="Second slide"
-        />
-
-        <Carousel.Caption>
-          <div className="flex-column carouselText">
-            <h3>Maria Mata Convent School Chhatarpur</h3>
-          </div>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item style={{maxHeight:'30rem',height:'auto'}}>
-        <img
-          className="d-block w-100 carouselImg"
-          src="assets/schoolimg/sumati.jpg"
+          src="assets/CollegeUniversities/pdps.jpg"
           alt="Third slide"
         />
 
         <Carousel.Caption>
           <div className="flex-column carouselText">
-            <h3>Behs Sumati Academy Chhatarpur</h3>
+            <h3>Pt. Dev Prabhakar College Chhatarpur</h3>
           </div>
         </Carousel.Caption>
       </Carousel.Item>

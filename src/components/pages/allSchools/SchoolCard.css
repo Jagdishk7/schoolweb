@@ -88,6 +88,7 @@
     object-fit:fill;
     inline-size: 100%;
   }
+
   
   @supports not (aspect-ratio: 16 / 9) {
     .image-wrap::before {

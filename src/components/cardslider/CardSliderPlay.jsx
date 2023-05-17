@@ -29,7 +29,7 @@ const CardSliderPlay = ({heading}) => {
             breakpoint:425,
             settings:{
               slidesToShow:1,
-              centerMode:false,
+              centerMode:true,
               centerPadding:'20px'
             }
           },

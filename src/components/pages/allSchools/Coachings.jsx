@@ -14,6 +14,9 @@ const Coachings = () => {
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore repudiandae iusto, harum soluta alias consectetur placeat, unde non suscipit ex nam sequi nemo accusamus distinctio sapiente, debitis dicta doloremque illo esse possimus cupiditate.
             </p>
+            <p>
+              <strong>Address : </strong>Chhatarpur
+            </p>
           </div>
 
           <figure class="image-wrap">

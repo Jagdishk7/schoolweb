@@ -1,11 +1,29 @@
-import React from 'react'
+import * as React from 'react';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import { CardActionArea } from '@mui/material';
 
-const AdCard = () => {
+export default function AdCard({title,desc,src}) {
   return (
-    <div className='adCard'>
-      <img src="assets/ad.jpg" alt="advertisement" />
-    </div>
-  )
+    <Card sx={{ maxWidth: 345 }}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          height="140"
+          image={src}
+          alt="Advertisement"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            {title}
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            {desc}
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+  );
 }
-
-export default AdCard

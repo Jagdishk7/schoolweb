@@ -12,7 +12,7 @@ const SimpleCard = ({head}) => {
           style={{ width: '16rem' }}
           className="mb-2 simpleCard"
         >
-          <Card.Header>{head}</Card.Header>
+          <Card.Header className='simplecard-head'>{head}</Card.Header>
           <Card.Body>
             {/* <Card.Title>{head} </Card.Title> */}
             <Card.Text>

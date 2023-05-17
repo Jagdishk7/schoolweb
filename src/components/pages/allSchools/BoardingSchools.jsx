@@ -14,7 +14,9 @@ const BoardingSchools = () => {
             </h1>
             <p>
             A boarding school is a school where students live and sleep. Some boarding schools have day students who go home at the end of the school day. If the school costs money, they don't have to pay as much money. A person who stays at a boarding school is called a "boarder".
-
+            </p>
+            <p>
+              <strong>Address : </strong>NH 34, Hama, Madhya Pradesh 471001
             </p>
           </div>
 
@@ -33,6 +35,9 @@ const BoardingSchools = () => {
             <p>
             A boarding school is a school where students live and sleep. Some boarding schools have day students who go home at the end of the school day. If the school costs money, they don't have to pay as much money. A person who stays at a boarding school is called a "boarder".
             </p>
+            <p>
+              <strong>Address : </strong>Chowka, Madhya Pradesh 471301
+            </p>
           </div>
 
           <figure class="image-wrap">
@@ -49,6 +54,9 @@ const BoardingSchools = () => {
             <p>
             A boarding school is a school where students live and sleep. Some boarding schools have day students who go home at the end of the school day. If the school costs money, they don't have to pay as much money. A person who stays at a boarding school is called a "boarder".
             </p>
+            <p>
+              <strong>Address : </strong>Basari, Panna Khajuraho Rd, Chhatarpur, Madhya Pradesh 471105
+            </p>
           </div>
 
           <figure class="image-wrap">
@@ -64,6 +72,9 @@ const BoardingSchools = () => {
             <h1 class="headline">Jugraj Academy</h1>
             <p>
             A boarding school is a school where students live and sleep. Some boarding schools have day students who go home at the end of the school day. If the school costs money, they don't have to pay as much money. A person who stays at a boarding school is called a "boarder".
+            </p>
+            <p>
+              <strong>Address : </strong>Chhatrasal Chowk to Sagar Rd, Shanti Nagar, Chhatarpur, Madhya Pradesh 471001
             </p>
           </div>
 
