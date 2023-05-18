@@ -6,14 +6,14 @@ const SimpleCard = ({head}) => {
   return (
     <div>
         <Card
-          bg={'secondary'}
+          // bg={'secondary'}
           // text='light'
           key={'Secondary'}
           style={{ width: '16rem' }}
           className="mb-2 simpleCard"
         >
           <Card.Header className='simplecard-head'>{head}</Card.Header>
-          <Card.Body>
+          <Card.Body className='simplecard-desc'>
             {/* <Card.Title>{head} </Card.Title> */}
             <Card.Text>
               Some quick example text to build on the card title and make up the

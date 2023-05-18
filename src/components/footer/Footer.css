@@ -11,6 +11,7 @@
   .footer-logo{
     position: relative;
     top: 0;
+    width: 33%;
   }
   .footer-logo img{
     width: 10rem;
@@ -20,6 +21,9 @@
     color: aliceblue;
   }
   
+  .footer-nav{
+    width: 33%;
+  }
   .footer-links{
     width: 15rem;
     /* max-width: 15rem; */
@@ -33,6 +37,9 @@
 }
 .footer-links > a:hover{
     color: aliceblue !important;
+}
+.footer-socials{
+
 }
   .footer-socials>a{
     color: #bbbbbb !important;

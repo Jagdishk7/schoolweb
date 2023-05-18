@@ -115,6 +115,14 @@ a {
 
 /* ============ Widths ============ */
 
+.rounded-shadow{
+  border-radius: .3rem;
+  box-shadow: 0 0 2px #0000006b;
+  padding: 5px;
+}
+
+/* ============ Widths ============ */
+
 .w-90{
   width: 90% !important;
 }
@@ -142,4 +150,31 @@ a {
 	height:3px;
 	width:10rem;
 	margin: 20px auto 5px;
+}
+
+
+.sub-heading{
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+.sub-heading::before {
+  content: "";
+  background: #ff7777;
+  display: block;
+  height: 3px;
+  width: 5rem;
+  /* margin: 20px auto 5px; */
+  position: relative;
+  bottom: -2.2rem;
+}
+.sub-heading::after {
+  content: "";
+  background: #ff7777;
+  display: block;
+  height: 3px;
+  width: 2.5rem;
+  /* margin: 20px auto 5px; */
+  position: relative;
+  bottom: -.6rem;
 }

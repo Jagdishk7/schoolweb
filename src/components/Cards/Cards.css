@@ -6,8 +6,12 @@ a{
     color: #000000;
 }
 
+.simplecard-head{
+    font-weight: 500;
+    background-color: #b2c2bf ;
+}
 .simplecard-desc{
-    background-color: #7e7e7e !important;
+    background-color: #c0ded9 ;
 }
 .image-card{
     box-shadow: none !important;

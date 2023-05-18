@@ -1,12 +1,17 @@
 const express = require('express');
 const collection = require('./mongo');
 const cors = require('cors');
+const router = require("./routes/router");
+
+
 
 const app = express();
 
+// middle ware
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 app.use(cors())
+app.use(router)
 
 
 app.get('/login',cors(),(req,resp)=>{
