@@ -18,6 +18,9 @@ import TechnicalInstitutes from "./components/pages/allSchools/TechnicalInstitut
 import SoftwareInstitutes from "./components/pages/allSchools/SoftwareInstitutes";
 import FAQs from "./components/pages/faqs/FAQs";
 import Blogs from "./components/pages/blogs/Blogs";
+import EducationBlog from "./components/pages/blogs/EducationBlog";
+import TeacherBlog from "./components/pages/blogs/TeacherBlog";
+import ManagementBlog from "./components/pages/blogs/ManagementBlog";
 
 function App() {
   return (
@@ -30,6 +33,9 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/about" element={<About />} />
           <Route path="/blogs" element={<Blogs />} />
+          <Route path="/educationBlog" element={<EducationBlog/>} />
+          <Route path="/teacherBlog" element={<TeacherBlog/>} />
+          <Route path="/managementBlog" element={<ManagementBlog/>} />
           <Route path="/faqs" element={<FAQs />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/playschool" element={<PlaySchool />} />

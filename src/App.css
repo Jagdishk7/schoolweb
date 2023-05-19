@@ -166,7 +166,7 @@ a {
   width: 5rem;
   /* margin: 20px auto 5px; */
   position: relative;
-  bottom: -2.2rem;
+  bottom: -2.3rem;
 }
 .sub-heading::after {
   content: "";
@@ -176,5 +176,13 @@ a {
   width: 2.5rem;
   /* margin: 20px auto 5px; */
   position: relative;
-  bottom: -.6rem;
+  bottom: -0.6rem;
+}
+
+@media screen and (max-width: 500px) {
+  .sub-heading{
+    font-size: 0.8rem !important;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
 }
